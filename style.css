@@ -25,7 +25,7 @@ body {
 .nav-container {
     position: absolute;
     top: 25%;
-    left: 8%;
+    left: 90px;
     width: 450px;
 
 }
@@ -139,8 +139,8 @@ body {
 
 .titulo2 {
     position: relative;
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 .titulo2_2{
@@ -154,6 +154,7 @@ body {
     background: #faf9fe;
     height: 400px;
     padding: 50px;
+    margin-right: 60px;
     border-radius: 90px;
     gap: 20px;
     justify-content: space-around;
@@ -256,9 +257,44 @@ body {
     border-radius: 30%;
     margin: 20px;
     box-shadow: 0 0 50px rgba(220, 220, 220, 0.5);   
+
 }
 
 .cliente img {
     width: 100%;
     border-radius: 30%;
+}
+
+.cliente:hover img{
+    border: 5px solid  var(--colorNaranja);
+}
+
+/* footer */
+
+.redes_sociales {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorNaranja);
+    align-items: center;
+    height: 150px;
+}
+
+.iconos svg {
+    width: 100%;
+    height: 100%;
+    fill: #333033;
+    transition: .3s ease all;
+}
+
+.iconos svg:hover {
+    fill: white;
+}
+.iconos ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 30px 20px;
 }
