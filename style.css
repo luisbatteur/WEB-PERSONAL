@@ -263,10 +263,11 @@ body {
 .cliente img {
     width: 100%;
     border-radius: 30%;
+    transition: .3s ease all;
 }
 
 .cliente:hover img{
-    border: 5px solid  var(--colorNaranja);
+    outline: 5px solid  var(--colorNaranja);
 }
 
 /* footer */
