@@ -31,12 +31,17 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav-logo
 {
     font-size: 40px;
     color: var(--colorNegro);
     font-weight: 700;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .nav-logo span {
     display: flex;

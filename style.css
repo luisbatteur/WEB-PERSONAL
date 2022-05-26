@@ -47,6 +47,14 @@ body {
     color: #696969;
 }
 
+a{
+    text-decoration: none;
+}
+.btn-container {
+    display: block;
+    width: 150px;
+}
+
 .btn-ppal{
     display: flex;
     align-items: center;
