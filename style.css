@@ -50,10 +50,6 @@ body {
 a{
     text-decoration: none;
 }
-.btn-container {
-    display: block;
-    width: 150px;
-}
 
 .btn-ppal{
     display: flex;

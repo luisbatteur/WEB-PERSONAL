@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --colorNegro: #17252a;
+    --colorNaranja: #e76f51;
+}
+
+header{
+    display: block;
+    height: 250px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #faf9fe;
+    
+}
+
+/* INFO HEADER */
+
+.nav-container {
+    position: absolute;
+    top: 5%;
+    left: 157px;
+    width: 450px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-logo
+{
+    font-size: 40px;
+    color: var(--colorNegro);
+    font-weight: 700;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.nav-logo span {
+    display: flex;
+}
+
+.batteur{
+    color: var(--colorNaranja);
+}
+
+
+/* CIRCULOS DE COLOR */
+
+.seccionCirculos{
+    display: flex;
+    width: 100vw;
+}
+
+.circuloNaranja1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: var(--colorNaranja);
+    border-radius: 50%;
+    top: -6%;
+    left: -3%;
+}
+
+.circuloNaranja2 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: var(--colorNaranja);
+    border-radius: 50%;
+    top: -20%;
+    left: 40%;
+    z-index: 3;
+}
+
+.circuloNegro {
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
+    background-color: var(--colorNegro);
+    border-radius: 50%;
+    top: -145%;
+    left: 35%;
+    z-index: 2;
+}
+
+.circuloNaranja3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: var(--colorNaranja);
+    border-radius: 50%;
+    top: 4%;
+    left: 65%;
+    z-index: 0;
+}
+
+.circuloblanco {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 9%;
+    left: 67.4%;
+    z-index: 3;
+}
+
+
+/* form */
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px rgba(220, 220, 220, 0.5);
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.form-section {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-tex {
+    border-radius: 50px;
+    padding: 30px;
+    background-color: #faf9fe;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.form-section span {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.form-section input {
+    border: none;
+    background-color: #faf9fe;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.form-input {
+    display: flex;
+    width: 200%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid var(--colorNaranja);
+    background-color: #faf9fe;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-section input:focus {
+    border: 2px solid var(--colorNaranja);
+}
+
+.form-boton {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+
+}
+
+/* main */
+
+
+.Contenedor_Titulo {
+    display: flex;
+    margin-left: 157px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_diseño {
+    font-size: 40px;
+    color: var(--colorNegro);
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.titulo_diseño .Gráfico{
+    color: var(--colorNaranja);
+}
+
+.icono_t {
+    width: 80px;
+    margin: 15px;
+}
+
+
+
+
+
+
+/* footer */
+
+.redes_sociales {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorNaranja);
+    align-items: center;
+    height: 150px;
+}
+
+.iconos svg {
+    width: 100%;
+    height: 100%;
+    fill: #333033;
+    transition: .3s ease all;
+}
+
+.iconos svg:hover {
+    fill: white;
+}
+.iconos ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 30px 20px;
+}

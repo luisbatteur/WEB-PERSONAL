@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilosdiseño.css">
+    <link rel="stylesheet" href="contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Contacto</title>
+    <script src="formcontact.js"></script>
 </head>
 <body>
     <header>
@@ -29,6 +30,29 @@
             <img class="icono_t" src="./assets/fotografia.svg" alt="Diseño gráfico">
             <div class="titulo_diseño"><span>Contáctame</span></div>
         </nav>
+
+        <section class="form-container">
+            <form id="form" class="form" action="https://formspree.io/f/xrgjdjng" method="POST" autocomplete="on">
+                <label class="form-section">
+                    <span>Nombre</span>
+                    <input type="text" name="name" placeholder="Nombre" autocomplete="name">
+                </label>
+                <label class="form-section">
+                    <span>Correo</span>
+                    <input type="email" name="email" placeholder="Correo" autocomplete="email">
+                </label>
+                <label class="form-section">
+                    <span>Mensaje</span>
+                    <textarea class="form-tex" name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </label>
+                <div class="form-boton">
+                    <input type="submit" class="form-input">
+                </div>
+            </form>
+
+
+        </section>
+
 
     </main>
     <footer class="redes_sociales">
