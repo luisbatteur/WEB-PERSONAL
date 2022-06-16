@@ -11,12 +11,14 @@
 
 header{
     display: block;
+    position: relative;
     height: 800px;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+
     
 }
 
@@ -74,10 +76,12 @@ a{
 
 /* CIRCULOS DE COLOR */
 
-.seccionCirculos{
+/* .seccionCirculos{
     display: flex;
-    width: 100vw;
-}
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+} */
 
 .circuloNaranja1 {
     position: absolute;
@@ -106,7 +110,7 @@ a{
     height: 1500px;
     background-color: var(--colorNegro);
     border-radius: 50%;
-    top: -90%;
+    top: -115%;
     left: 35%;
     z-index: 2;
 }
@@ -141,6 +145,7 @@ a{
     grid-template-columns: 1fr 3fr;
 }
 
+
 .titulo2 {
     position: relative;
     font-size: 50px;
@@ -156,7 +161,7 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
     background: #faf9fe;
-    height: 400px;
+    height: 355px;
     padding: 50px;
     margin-right: 60px;
     border-radius: 90px;
@@ -167,6 +172,7 @@ a{
 
 .titulo2_parrafo{
     grid-column: 1 / 4;
+    text-align: center;
 }
 
 
@@ -186,6 +192,7 @@ a{
 
 .parrafo-tarjeta{
     font-size: 12px;
+    text-align: center;
     margin: 20px;
     padding-left: 10px;
     padding-right: 10px;

@@ -1,0 +1,62 @@
+/* CIRCULOS DE COLOR */
+
+.circuloNaranja1 {
+    width: 100px;
+    height: 100px;
+    top: -6%;
+    left: -3%;
+}
+
+
+.circuloNaranja2 {
+    width: 180px;
+    height: 180px;
+    left: 50%;
+    top: 20%;
+}
+
+.circuloNegro {
+    width: 700px;
+    height: 700px;
+    top: -100%;
+}
+
+.circuloNaranja3 {
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    left: 76.5%;
+}
+
+.circuloblanco {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 47%;
+    left: 80%;
+}
+
+/*  */
+
+header {
+    height: 450px;
+}
+.nav-container {
+    width: 280px;
+}
+
+.nav-logo {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.Descripcion {
+    font-size: 10px;
+}
+
+/*  */
+
+.parrafo-tarjeta {
+    font-size: 10px;
+    line-height: 10px;
+}

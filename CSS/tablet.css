@@ -1,0 +1,74 @@
+/* CIRCULOS DE COLOR */
+
+.circuloNaranja2 {
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top: 30%;
+}
+
+.circuloNegro {
+    width: 1000px;
+    height: 1000px;
+    top: -90%;
+
+}
+
+.circuloNaranja3 {
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 76.5%;
+}
+
+.circuloblanco {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 55%;
+    left: 80%;
+}
+
+header {
+    height: 650px;
+}
+
+.nav-container {
+    width: 368px;
+}
+
+
+/* seccion  */
+
+.conoce_contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.contenedor_tarjetas {
+    margin-right: 0px;
+}
+
+.contenedor_texto {
+    padding-left: 0;
+}
+
+.contenedor_texto p {
+    text-align: center;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+.contenedor-clientes {
+    display:flex;
+    flex-direction: column;
+}
+
+.clientes {
+    justify-content: space-around;
+}
