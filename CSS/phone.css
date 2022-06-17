@@ -1,0 +1,73 @@
+/* CIRCULOS DE COLOR */
+
+.circuloNaranja1 {
+    width: 80px;
+    height: 80px;
+    top: -6%;
+    left: -7%;
+}
+
+
+.circuloNaranja2 {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 12%;
+}
+
+.circuloNegro {
+    width: 500px;
+    height: 500px;
+    top: -80%;
+    left: 20%;
+}
+
+.circuloNaranja3 {
+    width: 60px;
+    height: 60px;
+    top: 24%;
+    left: 76.5%;
+}
+
+.circuloblanco {
+    width: 30px;
+    height: 30px;
+    top: 27%;
+    left: 80%;
+}
+
+/*  */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1000px;
+}
+
+.aparecer {
+    opacity: 1;
+    transition: .3s ease all;
+}
+
+/*  */
+
+.contenedor-clientes {
+    margin-top: 50px;
+}
+
+.titulo2 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+/*  */
+
+.texto-footer {
+    font-size: 12px;
+}
