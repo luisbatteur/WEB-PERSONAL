@@ -38,6 +38,16 @@
 
 /*  */
 
+header {
+    justify-content: center;
+}
+
+.nav-container {
+    width: 280px;
+    margin-left: 0;
+
+}
+
 .btn-container {
     display: flex;
     justify-content: center;
@@ -48,6 +58,17 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.tarjeta:hover {
+    border-radius: 40px;
+}
+
+.titulo2_parrafo {
+    font-size: 11px;
+    line-height: 12px;
 }
 
 .aparecer {
@@ -62,12 +83,42 @@
 }
 
 .titulo2 {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
-/*  */
+
+/* clientes */
+
+.clientes {
+    height: 200px;
+    overflow-x: scroll;
+    flex-direction: column;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.cliente {
+    scroll-snap-align: center;
+}
+
+
+
+
+
+
+
+/* footer */
 
 .texto-footer {
     font-size: 12px;
+}
+
+li {
+    margin: 30px 10px;
+}
+
+.texto-footer {
+    width: 200px;
+    text-align: center;
 }

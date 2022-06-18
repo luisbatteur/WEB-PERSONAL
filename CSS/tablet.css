@@ -60,6 +60,10 @@ header {
     text-align: center;
 }
 
+.tarjeta:hover {
+    border-radius: 45px;
+}
+
 .titulo2 {
     text-align: center;
 }

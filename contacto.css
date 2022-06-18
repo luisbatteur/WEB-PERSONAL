@@ -10,8 +10,10 @@
 }
 
 header{
-    display: block;
-    height: 250px;
+    display: flex;
+    position: relative;
+    height: 220px;
+    overflow-x: hidden;
 }
 
 body {
@@ -54,29 +56,24 @@ a{
 
 /* CIRCULOS DE COLOR */
 
-.seccionCirculos{
-    display: flex;
-    width: 100vw;
-}
-
 .circuloNaranja1 {
     position: absolute;
     width: 150px;
     height: 150px;
     background-color: var(--colorNaranja);
     border-radius: 50%;
-    top: -6%;
+    top: -20%;
     left: -3%;
 }
 
 .circuloNaranja2 {
     position: absolute;
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
     background-color: var(--colorNaranja);
     border-radius: 50%;
-    top: -20%;
-    left: 40%;
+    top: 10%;
+    left: 60%;
     z-index: 3;
 }
 
@@ -86,32 +83,11 @@ a{
     height: 1500px;
     background-color: var(--colorNegro);
     border-radius: 50%;
-    top: -145%;
-    left: 35%;
+    top: -610%;
+    left: 40%;
     z-index: 2;
 }
 
-.circuloNaranja3 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: var(--colorNaranja);
-    border-radius: 50%;
-    top: 4%;
-    left: 65%;
-    z-index: 0;
-}
-
-.circuloblanco {
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    top: 9%;
-    left: 67.4%;
-    z-index: 3;
-}
 
 
 /* form */
@@ -199,7 +175,6 @@ a{
 
 .Contenedor_Titulo {
     display: flex;
-    margin-left: 157px;
     align-items: center;
     justify-content: center;
 }
@@ -253,4 +228,90 @@ li {
     width: 30px;
     height: 30px;
     margin: 30px 20px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .nav-container {
+        left: 135px;
+    }
+    
+    .circuloNaranja1 {
+        width: 100px;
+        height: 100px;
+        top: -20%;
+        left: -3%;
+    }
+    
+    .circuloNaranja2 {
+        width: 100px;
+        height: 100px;
+        top: 10%;
+        left: 60%;
+    }
+    
+    .circuloNegro {
+        width: 1500px;
+        height: 1500px;
+        top: -610%;
+        left: 15%;
+    }
+ 
+    
+    .form {
+        width: 70%;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    .nav-container {
+        left: 50px;
+    }
+
+    .nav-logo {
+        font-size: 30px;
+    }
+
+    header {
+        height: 120px
+    }
+    .circuloNaranja1 {
+        width: 50px;
+        height: 50px;
+        top: -20%;
+        left: -3%;
+    }
+    
+    .circuloNaranja2 {
+        width: 80px;
+        height: 80px;
+        top: 10%;
+        left: 60%;
+    }
+    
+    .circuloNegro {
+        width: 400px;
+        height: 400px;
+        top: -260%;
+        left: 50%;
+    }
+
+
+    .titulo_diseño {
+        font-size: 28px;
+    }
+
+    .icono_t {
+        width: 40px;
+    }
+
+    
+    .form {
+        width: 90%;
+    }
 }
