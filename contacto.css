@@ -113,7 +113,7 @@ a{
 }
 
 .form-section {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -314,4 +314,18 @@ li {
     .form {
         width: 90%;
     }
+
+    .texto-footer {
+        font-size: 12px;
+    }
+    
+    li {
+        margin: 30px 10px;
+    }
+    
+    .texto-footer {
+        width: 200px;
+        text-align: center;
+    }
+
 }
