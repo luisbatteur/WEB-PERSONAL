@@ -95,6 +95,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .titulo_diseño {
@@ -160,6 +161,25 @@ li {
     width: 30px;
     height: 30px;
     margin: 30px 20px;
+}
+
+/* DESARROLLO WEB */
+
+.container_desarrollo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.container_desarrollo img {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.proximamente_titulo {
+    color: rgb(124, 124, 124)
 }
 
 

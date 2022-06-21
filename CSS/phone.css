@@ -62,13 +62,18 @@ header {
     padding: 30px;
 }
 
+.parrafo-tarjeta {
+    font-size: 14px;
+    line-height: 16px;
+}
+
 .tarjeta:hover {
     border-radius: 40px;
 }
 
 .titulo2_parrafo {
-    font-size: 11px;
-    line-height: 12px;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .aparecer {
